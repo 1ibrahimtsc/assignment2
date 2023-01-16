@@ -1,0 +1,617 @@
+/* -------Medium devices responsive css ----------- */
+@media screen and (max-width: 992px) {
+  .displaystatus {
+    display: none;
+  }
+  .container {
+    width: 100vw;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    clear: both;
+    font-size: 45px;
+    text-align: center;
+    color: yellow;
+  }
+
+  nav {
+    clear: both;
+  }
+  .nav a {
+    clear: both;
+    padding: 5px 7px;
+    font-size: 16px;
+  }
+
+  /*------ groupofacrhitects -----*/
+
+  .groupofacrhitects {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .groupofacrhitects > h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 20px;
+  }
+
+  .groupofacrhitects > p {
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 50px;
+  }
+
+  .groupofacrhitects > button {
+  }
+  .imgcontainer {
+    margin-top: 30px;
+  }
+  .imgcontainer img {
+    width: 80%;
+    display: block;
+    margin: opx auto;
+  }
+
+  /*-----our-features area start -------*/
+
+  .our-features {
+    margin-top: 30px;
+  }
+
+  .features-top-part {
+    height: 90vh;
+  }
+
+  .features-img-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .features-img-container img {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .features-content-container {
+    width: 90%;
+    display: flex;
+    float: right;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+
+    height: 80%;
+  }
+
+  .content {
+    margin: auto 50px;
+    width: 70%px;
+  }
+  .features-content-container h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .features-content-container p {
+    margin: 25px 0;
+    width: 80%px;
+  }
+
+  .features-bottom-part {
+  }
+
+  .features-bottom-part-container {
+    width: 90%;
+    clear: both;
+  }
+
+  .features-bottom-part-container .content-box {
+    width: 550px;
+    padding: 20px;
+  }
+
+  .features-bottom-part-container .content-box > h2 {
+    margin: 10px 0;
+  }
+
+  .features-bottom-part-container .content-box:first-child h2 {
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .features-bottom-part .img-container {
+    width: 90%;
+    clear: both;
+    margin-left: 20px;
+  }
+
+  .features-bottom-part .img-container > img {
+    width: 90%;
+  }
+
+  /*--------------some-facts area start -------------*/
+  #btn-exprience {
+    font-size: 65px;
+    position: absolute;
+    top: -214px;
+    right: 23%;
+    padding: 15px 40px;
+  }
+  .some-facts {
+    margin-top: 115px;
+    position: relative;
+  }
+
+  .some-facts > h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .some-facts > p {
+    text-align: center;
+    font-weight: 400;
+
+    line-height: 26px;
+
+    width: 540px;
+    margin: 0 auto;
+  }
+
+  .some-facts .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .some-facts .icon-container .icon-container-box {
+    width: 35%;
+
+    padding: 60px 30px;
+    margin: 10px;
+  }
+
+  /* --------our-spnspors area style------------- */
+  .our-sponsors {
+    margin-top: 60px;
+  }
+
+  .our-sponsors .sponsors-cantainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+  }
+
+  .our-sponsors .sponsors-cantainer img {
+    width: 150px;
+    margin: 15px;
+    border: 1px solid #fccfcf;
+    border-radius: 3px;
+  }
+}
+
+/* ------- responsive css for landscape phones, less than 769px----------- */
+@media screen and (max-width: 768px) {
+  .displaystatus {
+    display: none;
+  }
+  .container {
+    width: 100vw;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    clear: both;
+    font-size: 45px;
+    text-align: center;
+    color: green;
+  }
+
+  nav {
+    clear: both;
+  }
+  .nav a {
+    clear: both;
+    padding: 5px 7px;
+    font-size: 16px;
+  }
+
+  /*------ groupofacrhitects -----*/
+
+  .groupofacrhitects {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .groupofacrhitects > h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 20px;
+  }
+
+  .groupofacrhitects > p {
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 50px;
+  }
+
+  .groupofacrhitects > button {
+  }
+  .imgcontainer {
+    margin-top: 30px;
+  }
+  .imgcontainer img {
+    width: 80%;
+    display: block;
+    margin: opx auto;
+  }
+
+  /*-----our-features area start -------*/
+
+  .our-features {
+    margin-top: 30px;
+  }
+
+  .features-top-part {
+    height: 90vh;
+  }
+
+  .features-img-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .features-img-container img {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .features-content-container {
+    width: 90%;
+    display: flex;
+    float: right;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+
+    height: 80%;
+  }
+
+  .content {
+    margin: auto 50px;
+    width: 70%px;
+  }
+  .features-content-container h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .features-content-container p {
+    margin: 25px 0;
+    width: 80%px;
+  }
+
+  .features-bottom-part {
+  }
+
+  .features-bottom-part-container {
+    width: 90%;
+    clear: both;
+  }
+
+  .features-bottom-part-container .content-box {
+    width: 550px;
+    padding: 20px;
+  }
+
+  .features-bottom-part-container .content-box > h2 {
+    margin: 10px 0;
+  }
+
+  .features-bottom-part-container .content-box:first-child h2 {
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .features-bottom-part .img-container {
+    width: 90%;
+    clear: both;
+    margin-left: 20px;
+  }
+
+  .features-bottom-part .img-container > img {
+    width: 90%;
+  }
+
+  /*--------------some-facts area start -------------*/
+  #btn-exprience {
+    font-size: 65px;
+    position: absolute;
+    top: -214px;
+    right: 23%;
+    padding: 15px 40px;
+  }
+  .some-facts {
+    margin-top: 115px;
+    position: relative;
+  }
+
+  .some-facts > h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .some-facts > p {
+    text-align: center;
+    font-weight: 400;
+
+    line-height: 26px;
+
+    width: 540px;
+    margin: 0 auto;
+  }
+
+  .some-facts .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .some-facts .icon-container .icon-container-box {
+    width: 35%;
+
+    padding: 60px 30px;
+    margin: 10px;
+  }
+
+  /* --------our-spnspors area style------------- */
+  .our-sponsors {
+    margin-top: 60px;
+  }
+
+  .our-sponsors .sponsors-cantainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+  }
+
+  .our-sponsors .sponsors-cantainer img {
+    width: 150px;
+    margin: 15px;
+    border: 1px solid #fccfcf;
+    border-radius: 3px;
+  }
+}
+
+/* -------only mobile responsive css------ */
+@media screen and (max-width: 575.98px) {
+  .displaystatus {
+    display: none;
+  }
+  .container {
+    width: 100vw;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    clear: both;
+    font-size: 45px;
+    text-align: center;
+    color: red;
+  }
+
+  nav {
+    clear: both;
+  }
+  .nav a {
+    clear: both;
+    padding: 5px 7px;
+    font-size: 16px;
+  }
+
+  /*------ groupofacrhitects -----*/
+
+  .groupofacrhitects {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .groupofacrhitects > h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 20px;
+  }
+
+  .groupofacrhitects > p {
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 50px;
+  }
+
+  .groupofacrhitects > button {
+  }
+  .imgcontainer {
+    margin-top: 30px;
+  }
+  .imgcontainer img {
+    width: 80%;
+    display: block;
+    margin: opx auto;
+  }
+
+  /*-----our-features area start -------*/
+
+  .our-features {
+    margin-top: 30px;
+  }
+
+  .features-top-part {
+    height: 90vh;
+  }
+
+  .features-img-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .features-img-container img {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .features-content-container {
+    width: 90%;
+    display: flex;
+    float: right;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+
+    height: 80%;
+  }
+
+  .content {
+    margin: auto 50px;
+    width: 70%px;
+  }
+  .features-content-container h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .features-content-container p {
+    margin: 25px 0;
+    width: 80%px;
+  }
+
+  .features-bottom-part {
+  }
+
+  .features-bottom-part-container {
+    width: 90%;
+    clear: both;
+  }
+
+  .features-bottom-part-container .content-box {
+    width: 550px;
+    padding: 20px;
+  }
+
+  .features-bottom-part-container .content-box > h2 {
+    margin: 10px 0;
+  }
+
+  .features-bottom-part-container .content-box:first-child h2 {
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .features-bottom-part .img-container {
+    width: 90%;
+    clear: both;
+    margin-left: 20px;
+  }
+
+  .features-bottom-part .img-container > img {
+    width: 90%;
+  }
+
+  /*--------------some-facts area start -------------*/
+  #btn-exprience {
+    font-size: 65px;
+    position: absolute;
+    top: -214px;
+    right: 23%;
+    padding: 15px 40px;
+  }
+  .some-facts {
+    margin-top: 115px;
+    position: relative;
+  }
+
+  .some-facts > h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .some-facts > p {
+    text-align: center;
+    font-weight: 400;
+
+    line-height: 26px;
+
+    width: 540px;
+    margin: 0 auto;
+  }
+
+  .some-facts .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .some-facts .icon-container .icon-container-box {
+    width: 35%;
+
+    padding: 60px 30px;
+    margin: 10px;
+  }
+
+  /* --------our-spnspors area style------------- */
+  .our-sponsors {
+    margin-top: 60px;
+  }
+
+  .our-sponsors .sponsors-cantainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+  }
+
+  .our-sponsors .sponsors-cantainer img {
+    width: 150px;
+    margin: 15px;
+    border: 1px solid #fccfcf;
+    border-radius: 3px;
+  }
+}
